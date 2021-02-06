@@ -1,8 +1,7 @@
 # cellList
 
 * a template for displaying lists (tables) with searchability and sortability
-
-this project was bootstrapped with [create-react-app](https://github.com/facebook/create-react-app)
+* this project was bootstrapped with [create-react-app](https://github.com/facebook/create-react-app)
 
 ## startup
 
