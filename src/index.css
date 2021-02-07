@@ -12,3 +12,50 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+caption { 
+  /* screen reader only for table captions */
+  position: absolute;
+  left: -8000px;
+}
+
+/* sort arrows */
+
+.asc:before {
+  /* up arrow */
+  content: '\2191';
+  padding-right: 10px;
+}
+
+.desc:before {
+  /* down arrow */
+  content: '\2193';
+  padding-right: 10px;
+}
+
+/* customize table styling below */
+
+table {
+  width: 100%;  
+}
+
+th {
+  background: #000;
+  color: #fff;
+  text-align: left;
+}
+
+th, td {
+  margin: 0;
+  padding: 7.5px;
+  border: 1px solid #ccc;
+}
+
+th button {
+  background: transparent;
+  border: 0;
+  color: inherit;
+  font-size: 16pt;
+  font-weight: normal;
+}
+
