@@ -11,6 +11,7 @@ function App() {
     <div className="App">
       {/* place in a header component in the future */}
       <h1>cellList (Demo)</h1>
+      <p>(click on a column to sort it and change its order)</p>
       {/* this is it */}
       <CellList config={config} items={items} />
     </div>
