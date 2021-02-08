@@ -17,8 +17,6 @@ you do not:
 * actually need to know React to enjoy using this 
   * simply edit the `src/data/SampleData.js` file to have your own table
 
-however, if you wish to use this on your website, you will need to know some React!
-
 ## startup
 
 ### download
@@ -48,7 +46,6 @@ $ npm start
 
 ## development
 
-* configure project 
 * configure formatting of the list/table in `src/data/sampleData.js`
 * optionally, configure the styling in `src/index.css`
 * modify the `homepage` property in `package.json` for deployment to gh-pages
