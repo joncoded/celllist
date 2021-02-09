@@ -4,6 +4,7 @@ import './index.css';
 
 /* data source */
 import { config, items } from './data/SampleData';
+import { config as config2, items as items2 } from './data/SampleData-2';
 
 function App() {
   
@@ -14,6 +15,8 @@ function App() {
       <p>(click on a column to sort it and change its order)</p>
       {/* this is it */}
       <CellList config={config} items={items} />
+      {/* and here is another instance */}
+      <CellList config={config2} items={items2} />
     </div>
   );
 
