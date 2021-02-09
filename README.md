@@ -1,7 +1,7 @@
 # cellList
 
 * a React library for flexibly displaying lists of data in tables with sortability functions
-* sorts alphabetically/numerically regardless of alphabet system
+* sorts alphabetically/numerically regardless of alphabet system (including Chinese!)
 * this project was bootstrapped with [create-react-app](https://github.com/facebook/create-react-app)
 
 ## prerequisites
