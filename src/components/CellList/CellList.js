@@ -8,7 +8,7 @@ const CellList = (props) => {
     if (!sortSetting) {
       return;
     }
-    return sortSetting.field === field ? sortSetting.order : undefined;
+    return sortSetting.field === field ? sortSetting.order : '';
   }
 
   return (

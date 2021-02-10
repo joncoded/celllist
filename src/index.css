@@ -24,19 +24,23 @@ caption {
 .asc:before {
   /* up arrow */
   content: '\2191';
-  padding-right: 10px;
 }
 
 .desc:before {
   /* down arrow */
   content: '\2193';
+}
+
+.asc:before, .desc:before {
   padding-right: 10px;
 }
 
 /* customize table styling below */
 
 table {
+  display: block;
   width: 100%;  
+  overflow-x: auto;  
 }
 
 th {
@@ -52,8 +56,8 @@ th, td {
 }
 
 th button {
-  background: transparent;
-  border: 0;
+  background: transparent; 
+  border: 0; 
   color: inherit;
   font-size: 16pt;
   font-weight: normal;
