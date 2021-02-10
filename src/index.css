@@ -31,7 +31,12 @@ caption {
   content: '\2193';
 }
 
-.asc:before, .desc:before {
+.sort:before {
+  /* up-down arrow */
+  content: '\2195';
+}
+
+.asc:before, .desc:before, .sort:before {
   padding-right: 10px;
 }
 
